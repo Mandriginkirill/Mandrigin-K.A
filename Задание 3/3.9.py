@@ -1,16 +1,17 @@
 # -*- coding: utf-8 -*-
 def x():
-    n=int(input("введите колличество чисел:"))
+    N=int(input("введите колличество чисел:"))
     a=0
     b=1
-    sum=1
-    if n==1:
+    sum=0
+    if N==1:
         print(0)
-    elif  n >1:
-        for i in range (2,n):
-            k=b
-            b=a+b
-            a=k
+    elif  N >1:
+        for i in range (1,N):
+            k=a+b
+            a=b
+            b=k
             sum+=b
         print (sum)
+    return "Конец"
 print(x())

@@ -7,4 +7,5 @@ def  x():
         print(a[:0]+a[c+1:])
     else:
         print(a[:b]+a[c+1:])
+    return "Конец"
 print (x())

@@ -8,4 +8,5 @@ def x():
         print(a.find("f",b+1))
     if a.find("f")==-1:
         print("-2")
+    return "Конец"
 print (x())

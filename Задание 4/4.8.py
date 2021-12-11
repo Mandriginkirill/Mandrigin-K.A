@@ -4,4 +4,5 @@ def  x():
     b=a.find("h")
     c=a.rfind("h")
     print(a[c:b:-1]+"h")
+    return "Конец"
 print (x())

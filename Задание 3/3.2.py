@@ -8,4 +8,5 @@ def x():
     else:
         for i in range (a,b-1,-1):
             print(i)
+    return "Конец"
 print(x())

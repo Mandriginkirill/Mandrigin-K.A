@@ -10,4 +10,5 @@ def x():
     print(s[::-1])
     print(s[::-2])
     print(len(s))
+    return "Конец"
 print (x())

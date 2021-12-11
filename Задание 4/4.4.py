@@ -4,4 +4,5 @@ def x():
     b=a[:a.find(" ")]
     c=a[a.find(" "):]
     print (c,"",b)
+    return "Конец"
 print (x())

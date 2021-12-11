@@ -6,4 +6,5 @@ def x():
     else:
         a.count("f")>=2
     print(a.find("f"),a.rfind("f"))
-print (x())
+    return "Конец"
+print(x())

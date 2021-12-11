@@ -7,4 +7,5 @@ def x():
         fact *= i
         factsum += fact
     print(factsum)
+    return "Конец"
 print(x())

@@ -7,4 +7,5 @@ def x():
             print(i)
     elif  b<a:
         print("ошибка")
+    return "Конец"
 print(x())

@@ -5,4 +5,5 @@ def x():
     for i in range(1, n + 1):
         n1 *= i
     print("Факториал",n,"=",n1)
+    return "Конец"
 print(x())

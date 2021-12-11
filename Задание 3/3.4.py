@@ -6,4 +6,5 @@ def x():
         a = int(input('Введите число:'))
         s += a
         print('Сумма всех чисел=', s)
+    return "Конец"
 print(x())
