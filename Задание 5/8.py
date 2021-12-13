@@ -10,6 +10,8 @@ def x():
         while r!=0:
             if r==t:
                 y=y+1
+            else:
+                y=0
             r=t
             t=int(input("введите следующее число:"))
             if max<y:
