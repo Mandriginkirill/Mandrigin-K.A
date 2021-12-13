@@ -7,11 +7,11 @@ def x():
     if N==1:
         print(0)
     elif  N >1:
-        for i in range (1,N):
+        for i in range (2,N):
             k=a+b
             a=b
             b=k
             sum+=b
-        print (sum)
+        print (sum+1)
     return "Конец"
 print(x())
